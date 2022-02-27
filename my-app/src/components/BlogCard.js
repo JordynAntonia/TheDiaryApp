@@ -1,12 +1,12 @@
-import axios from 'axios'
+// import axios from 'axios'
 import { Link, useParams } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 
 const BlogCard = ({token}) => {
-    const { blogCardId } = useParams()
+    // const { blogCardId } = useParams()
     console.log('CHECK OUT THE PARAMS!!', useParams())
-    const [blogCard, setBlogCard] = useState(null)
+    const [blogCard] = useState(null)
   
     return (
 
