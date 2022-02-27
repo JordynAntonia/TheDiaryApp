@@ -2,12 +2,12 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav>
-			<a href="home">HOME</a>
-			<a href="beauty">BEAUTY</a>
-      <a href="health">HEALTH & WELLNESS</a>
-      <a href="travel">TRAVEL</a>
-      <a href="tech">TECH TALK</a>
+    <nav style={{color: "white", backgroundColor: "black", padding: "1px", display: "flex", flexDirection: "row", margin: "0", justifyContent: "space-around"}}>
+			<ul href="home">HOME</ul>
+			<ul href="beauty">BEAUTY</ul>
+      <ul href="health">HEALTH & WELLNESS</ul>
+      <ul href="travel">TRAVEL</ul>
+      <ul href="tech">TECH TALK</ul>
     </nav>
   );
 };
