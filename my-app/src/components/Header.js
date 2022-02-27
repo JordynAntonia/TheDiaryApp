@@ -4,8 +4,8 @@ const Header = () => {
 
 
 return (
-    <header display="flex" text-align="center" >
-        <h1> The Diary of Antonia </h1>
+    <header display="flex" text-align="center" padding="" >
+        <h1 style={{color: "white", textAlign: "center", fontFamily: "Ariel", backgroundColor: "black", padding: "20px", margin: "0"}}> The Diary of Antonia </h1>
     </header>
 )}
 export default Header;

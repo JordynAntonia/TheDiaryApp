@@ -3,6 +3,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <nav>
+			<a href="home">HOME</a>
 			<a href="beauty">BEAUTY</a>
       <a href="health">HEALTH & WELLNESS</a>
       <a href="travel">TRAVEL</a>
@@ -11,3 +12,4 @@ const NavBar = () => {
   );
 };
 export default NavBar;
+
