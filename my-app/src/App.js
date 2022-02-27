@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import NavBar from "./components/NavBar"
+import SearchBar from "./components/SearchBar"
 
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
     <Header />
     <NavBar />
+    <SearchBar />
     </div>
   );
 }
